@@ -2,6 +2,11 @@
 
 A lightweight native Android launcher for Fire TV, designed for remote control and a quiet, uncluttered home screen.
 
+## PDF guides
+
+- [Screenshots and features — two A3 pages](Calm-Home-A3-Features.pdf)
+- [Technical specification and device compatibility — one A3 page](Calm-Home-A3-Technical-Specification.pdf)
+
 ## Features
 
 - Six-column app grid with native installed-app artwork and 16:9 tiles.
