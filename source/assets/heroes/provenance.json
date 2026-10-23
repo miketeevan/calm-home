@@ -1,0 +1,71 @@
+[
+  {
+    "package": "com.bendingx.iptvx.android",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/6b/50/286b5067-0e73-8ab1-656e-3f91cea21bcb/App_Icon-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/us/app/id1451470024?platform=tv",
+    "bytes": 52211,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.amazon.firetv.youtube",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/d6/91/49d6917f-12a2-e8bd-f995-fd5c836d598a/AppIconSmall-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id544007664?platform=tv",
+    "bytes": 43541,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.spotify.tv.android",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/d5/0c/c2d50cce-7468-4baa-b32e-40e1176b594c/AppIconSmall-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id324684580?platform=tv",
+    "bytes": 49187,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "uk.co.bbc.iplayer",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/58/a0/6558a0be-a1a0-e44a-3f2e-c8b6d63a813f/App_Icon-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id416580485?platform=tv",
+    "bytes": 82792,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.disney.disneyplus",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/a5/9b/6ba59b75-0bf3-2856-c512-b37961af635a/App_Icon_-_Small-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id1446075923?platform=tv",
+    "bytes": 132294,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.amazon.avod",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/8d/99/428d995b-e927-8925-31b4-12d7c843c30f/App_Icon-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id545519333?platform=tv",
+    "bytes": 60271,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.channel4.ondemand",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/94/2d/e7942d8b-13a2-cd7b-b08f-2720dfdefac5/App_Icon-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id432494037?platform=tv",
+    "bytes": 37307,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "air.ITVMobilePlayer",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/1f/f8/181ff83f-1289-3d34-26e0-b0eeaaa93740/App_Icon_-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id446079916?platform=tv",
+    "bytes": 56543,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.amazon.bueller.music",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/27/a1/3927a192-fff7-e87b-7bee-3f378170c02e/App_Icon-marketing.lsr/1920x1080bb-90.jpg",
+    "listing": "https://apps.apple.com/gb/app/id510855668?platform=tv",
+    "bytes": 97626,
+    "purpose": "Full-screen static brand fallback"
+  },
+  {
+    "package": "com.disney.disneyplus",
+    "source": "https://lumiere-a.akamaihd.net/v1/images/disney_logo_march_2024_050fef2e.png?region=0%2C0%2C1920%2C1080",
+    "listing": "https://press.disneyplus.com/about/logos",
+    "purpose": "Official Disney press logo plate, 1920x1080; preferred over icon artwork"
+  }
+]

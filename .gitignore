@@ -1,0 +1,25 @@
+# Local signing material and account configuration
+private/
+*.jks
+*.keystore
+*.pass
+*.pem
+*.p12
+.env
+.env.*
+# Build/tool output
+build/
+tools/
+*.apk
+*.idsig
+# Device-specific or personal material
+backups/
+verification/
+screenshots/
+deliverables/
+change-journal.jsonl
+preferences.json
+helper-state.json
+*.log
+.DS_Store
+__pycache__/

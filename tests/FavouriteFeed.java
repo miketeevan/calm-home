@@ -1,0 +1,8 @@
+package uk.michael.calmhome;
+import android.content.*;import android.database.*;import android.net.*;import android.os.*;import java.io.*;
+public class FavouriteFeed extends ContentProvider {
+ public boolean onCreate(){return true;}
+ public Cursor query(Uri u,String[] p,String s,String[] a,String o){MatrixCursor c=new MatrixCursor(new String[]{"_id","title","thumbnail_uri","intent_uri"});c.addRow(new Object[]{"bad-link","Invalid test station","","intent:#Intent;component=other.app/other.app.Hidden;end"});for(int i=0;i<7;i++)c.addRow(new Object[]{"test"+i,"Test station "+i,"content://uk.michael.calmhome.tests.favourites/art","intent:#Intent;component=uk.michael.calmhome.tests/uk.michael.calmhome.FavouriteDestination;end"});return c;}
+ public ParcelFileDescriptor openFile(Uri u,String m)throws FileNotFoundException{try{File file=new File(getContext().getCacheDir(),"preview.png");android.graphics.Bitmap b=android.graphics.Bitmap.createBitmap(640,360,android.graphics.Bitmap.Config.ARGB_8888);b.eraseColor(0xff305070);try(FileOutputStream out=new FileOutputStream(file)){b.compress(android.graphics.Bitmap.CompressFormat.PNG,100,out);}return ParcelFileDescriptor.open(file,ParcelFileDescriptor.MODE_READ_ONLY);}catch(Exception e){throw new FileNotFoundException();}}
+ public String getType(Uri u){return "image/png";}public Uri insert(Uri u,ContentValues v){throw new UnsupportedOperationException();}public int delete(Uri u,String s,String[] a){throw new UnsupportedOperationException();}public int update(Uri u,ContentValues v,String s,String[] a){throw new UnsupportedOperationException();}
+}

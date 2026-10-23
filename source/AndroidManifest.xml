@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="uk.michael.calmhome" android:versionCode="12" android:versionName="2.0">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="30"/>
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+  <uses-feature android:name="android.software.leanback" android:required="false"/>
+  <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="io.github.toolicious.homeonfire.permission.OPEN_STOCK_HOME"/>
+  <uses-permission android:name="android.permission.READ_TV_LISTINGS"/>
+  <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA"/>
+  <uses-permission android:name="uk.michael.framefire.permission.READ_SHELF"/>
+  <queries>
+    <package android:name="uk.michael.framefire"/>
+    <provider android:name="android.content.ContentProvider" android:authorities="android.media.tv;com.bendingx.iptvx.android.watchnext.artwork;uk.michael.framefire.shelf"/>
+    <intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LEANBACK_LAUNCHER"/></intent>
+    <intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent>
+  </queries>
+  <application android:hardwareAccelerated="true" android:label="Calm Home" android:theme="@style/CalmTheme" android:allowBackup="false" android:usesCleartextTraffic="false">
+    <activity android:name=".MainActivity" android:exported="true" android:launchMode="singleTask" android:screenOrientation="landscape">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/><category android:name="android.intent.category.LEANBACK_LAUNCHER"/></intent-filter>
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.HOME"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
+    </activity>
+  </application>
+</manifest>

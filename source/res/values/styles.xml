@@ -1,0 +1,9 @@
+<resources>
+  <style name="CalmTheme" parent="android:style/Theme.Material.NoActionBar">
+    <item name="android:windowIsTranslucent">false</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:windowBackground">#000000</item>
+    <item name="android:colorAccent">#DCEAFF</item>
+    <item name="android:windowActionModeOverlay">true</item>
+  </style>
+</resources>
